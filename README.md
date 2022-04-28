@@ -16,5 +16,5 @@ Here are some ideas to get you started:
 -->
 
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=havefunatcode&show_icons=true&theme=merko" />
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=havefunatcode&show_icons=true&theme=merko&hide_border=true&layout=compact&langs_count=8" />
 <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=havefunatcode&theme=merko&hide_border=true&layout=compact&langs_count=8" />
