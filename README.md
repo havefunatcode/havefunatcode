@@ -16,4 +16,4 @@ Here are some ideas to get you started:
 -->
 
 
-![TaeDo's GitHub stats](https://github-readme-stats.vercel.app/api?username=havefunatcode&show_icons=true&theme=radical)
+![TaeDo's GitHub stats](https://github-readme-stats.vercel.app/api?username=havefunatcode&show_icons=true&theme=merko)
