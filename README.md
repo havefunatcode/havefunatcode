@@ -17,4 +17,4 @@ Here are some ideas to get you started:
 
 
 <img height="180em" src="https://github-readme-stats.vercel.app/api?username=havefunatcode&show_icons=true&theme=merko" />
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=havefunatcode)](https://github.com/anuraghazra/github-readme-stats)
+<img height="1802m" src="https://github-readme-stats.vercel.app/api/top-langs/?username=havefunatcode" />
