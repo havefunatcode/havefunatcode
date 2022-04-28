@@ -1,5 +1,5 @@
 <h1 align="center">
-  [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Teko&size=50&center=true&vCenter=true&multiline=true&width=600&height=400&lines=Hello+There+%F0%9F%91%8B;Glad+to+see+you%E2%9D%97)](https://git.io/typing-svg)
+  <img src="https://readme-typing-svg.herokuapp.com?font=Teko&size=50&center=true&vCenter=true&multiline=true&width=600&height=400&lines=Hello+There+%F0%9F%91%8B;Glad+to+see+you%E2%9D%97" />
 </h1>
 
 <!--
