@@ -1,4 +1,4 @@
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Teko&size=50&center=true&vCenter=true&multiline=true&lines=Hello+There+%F0%9F%91%8B;Glad+to+see+you.%E2%9D%97)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Teko&size=50&center=true&vCenter=true&multiline=true&width=600&height=400&lines=Hello+There+%F0%9F%91%8B;Glad+to+see+you%E2%9D%97)](https://git.io/typing-svg)
 
 <!--
 **havefunatcode/havefunatcode** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
