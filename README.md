@@ -15,5 +15,5 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-![Stats Overview](https://raw.githubusercontent.com/havefunatcode/github-stats-transparent/output/generated/overview.svg)
-![Most Used Languages](https://raw.githubusercontent.com/havefunatcode/github-stats-transparent/output/generated/languages.svg)
+
+![TaeDo's GitHub stats](https://github-readme-stats.vercel.app/api?username=havefunatcode&show_icons=true&theme=radical)
