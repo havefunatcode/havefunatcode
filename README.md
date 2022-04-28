@@ -14,4 +14,6 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
- [![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=havefunatcode)](https://github.com/anuraghazra/github-readme-stats)
+
+![Stats Overview](https://raw.githubusercontent.com/havefunatcode/github-stats-transparent/output/generated/overview.svg)
+![Most Used Languages](https://raw.githubusercontent.com/havefunatcode/github-stats-transparent/output/generated/languages.svg)
