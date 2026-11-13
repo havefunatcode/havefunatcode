@@ -1,0 +1,7 @@
+version: 2
+updates:
+  # Actions in profile-cards.yml are pinned to commit SHAs; keep them current.
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: monthly
