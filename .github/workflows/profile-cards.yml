@@ -1,0 +1,80 @@
+name: Update profile cards
+
+# Generates the SVG cards embedded in README.md and commits them to profile/.
+# Cards are built here instead of being hot-linked from public instances,
+# so the profile does not break when a third-party host goes down.
+
+on:
+  schedule:
+    - cron: "17 21 * * *" # daily, 06:17 KST
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/profile-cards.yml
+
+concurrency:
+  group: profile-cards
+  cancel-in-progress: true
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+
+      # Third-party actions are pinned to a commit SHA (they receive a repo token).
+      - name: Stats card (light)
+        uses: stats-organization/github-readme-stats-action@2c498845f71017821efaad14293ebc736156ef21 # v2
+        with:
+          card: stats
+          options: username=${{ github.repository_owner }}&show_icons=true&hide=stars&hide_rank=true&hide_border=true&theme=default&bg_color=00000000
+          path: profile/stats-light.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fail_on_error: true
+
+      - name: Stats card (dark)
+        uses: stats-organization/github-readme-stats-action@2c498845f71017821efaad14293ebc736156ef21 # v2
+        with:
+          card: stats
+          options: username=${{ github.repository_owner }}&show_icons=true&hide=stars&hide_rank=true&hide_border=true&theme=github_dark&bg_color=00000000
+          path: profile/stats-dark.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fail_on_error: true
+
+      - name: Top languages card (light)
+        uses: stats-organization/github-readme-stats-action@2c498845f71017821efaad14293ebc736156ef21 # v2
+        with:
+          card: top-langs
+          options: username=${{ github.repository_owner }}&layout=compact&langs_count=6&hide=html,css&hide_border=true&theme=default&bg_color=00000000
+          path: profile/top-langs-light.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fail_on_error: true
+
+      - name: Top languages card (dark)
+        uses: stats-organization/github-readme-stats-action@2c498845f71017821efaad14293ebc736156ef21 # v2
+        with:
+          card: top-langs
+          options: username=${{ github.repository_owner }}&layout=compact&langs_count=6&hide=html,css&hide_border=true&theme=github_dark&bg_color=00000000
+          path: profile/top-langs-dark.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fail_on_error: true
+
+      - name: Contribution snake
+        uses: Platane/snk/svg-only@d8f6715049803e982ee5ff501b6b9b7d5deeb09b # v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            profile/snake-light.svg
+            profile/snake-dark.svg?palette=github-dark
+
+      - name: Commit cards
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add profile/*.svg
+          git commit -m "Update profile cards" || exit 0
+          git push

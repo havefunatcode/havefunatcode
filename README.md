@@ -1,24 +1,42 @@
-<h1 align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Teko&size=50&center=true&vCenter=true&multiline=true&width=600&height=150&lines=Hello+There+%F0%9F%91%8B;Glad+to+see+you!" />
-</h1>
+<h1 align="center">Have fun at code 👋</h1>
 
-<!--
-**havefunatcode/havefunatcode** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<p align="center">
+  Kotlin · Java · Spring으로 일하는 백엔드 개발자입니다.<br />
+  JVM 생태계 오픈소스에 버그 수정과 개선 PR을 보내고 있습니다.
+</p>
 
-Here are some ideas to get you started:
+<p align="center">
+  <a href="https://havefunatcode.github.io/">포트폴리오</a> ·
+  <a href="https://github.com/pulls?q=is%3Apr+author%3Ahavefunatcode+is%3Apublic">보낸 PR 전체</a>
+</p>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 오픈소스 기여
 
-<div align=center>
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=havefunatcode&show_icons=true&theme=dracula&hide_border=true&layout=compact&langs_count=8&bg_color=20232a&title_color='#4287f5'" />
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=havefunatcode&theme=dracula&hide_border=true&layout=compact&langs_count=8&bg_color=20232a&title_color='#4287f5'" />
-</div>
-<img src="https://activity-graph.herokuapp.com/graph?username=havefunatcode&theme=react-dark&bg_color=20232a&hide_border=true" width="100%"/>
+| 프로젝트 | 내용 |
+| --- | --- |
+| [apache/druid](https://github.com/apache/druid) | [SUM·AVG 등 숫자 집계 함수에서 숫자가 아닌 문자열 리터럴 거부 (#20845)](https://github.com/apache/druid/pull/20845) |
+| [apache/druid](https://github.com/apache/druid) | [quantile 집계 함수의 첫 번째 피연산자 검증 (#20782)](https://github.com/apache/druid/pull/20782) |
+| [OpenFeign/feign](https://github.com/OpenFeign/feign) | [QueryMap POJO의 필드·getter에 `@Param` expander 적용 (#3658)](https://github.com/OpenFeign/feign/pull/3658) |
+| [mockk/mockk](https://github.com/mockk/mockk) | [sealed value class 하위 타입에 서로 다른 signature 값 부여 (#1581)](https://github.com/mockk/mockk/pull/1581) |
+
+리뷰 중인 PR은 [여기](https://github.com/pulls?q=is%3Apr+author%3Ahavefunatcode+is%3Aopen+is%3Apublic)에서 볼 수 있습니다.
+
+## GitHub 활동
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./profile/stats-dark.svg" />
+    <img src="./profile/stats-light.svg" alt="GitHub 활동 통계" height="165" />
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./profile/top-langs-dark.svg" />
+    <img src="./profile/top-langs-light.svg" alt="많이 쓴 언어" height="165" />
+  </picture>
+</p>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./profile/snake-dark.svg" />
+    <img src="./profile/snake-light.svg" alt="기여 그래프를 먹는 뱀 애니메이션" width="100%" />
+  </picture>
+</p>
