@@ -14,8 +14,12 @@
 
 | Project | Pull request |
 | --- | --- |
+| [apache/druid](https://github.com/apache/druid) | [Reject CAST of a literal in table function arguments (#20911)](https://github.com/apache/druid/pull/20911) |
 | [apache/druid](https://github.com/apache/druid) | [Reject non-numeric string literals in SUM, AVG and other numeric aggregators (#20845)](https://github.com/apache/druid/pull/20845) |
 | [apache/druid](https://github.com/apache/druid) | [Validate the first operand of quantile aggregators (#20782)](https://github.com/apache/druid/pull/20782) |
+| [square/kotlinpoet](https://github.com/square/kotlinpoet) | [Add `FunSpec.Builder.addThrowsKdoc()` for `@throws` tags (#2432)](https://github.com/square/kotlinpoet/pull/2432) |
+| [line/armeria](https://github.com/line/armeria) | [Do not log WebSocket handshake failures as unexpected exceptions (#7082)](https://github.com/line/armeria/pull/7082) |
+| [apache/pulsar](https://github.com/apache/pulsar) | [Show environment variables in pulsar-admin and pulsar-client help (#27601)](https://github.com/apache/pulsar/pull/27601) |
 | [OpenFeign/feign](https://github.com/OpenFeign/feign) | [Apply `@Param` expanders on QueryMap POJO fields and getters (#3658)](https://github.com/OpenFeign/feign/pull/3658) |
 | [mockk/mockk](https://github.com/mockk/mockk) | [Give sealed value class subtypes distinct signature values (#1581)](https://github.com/mockk/mockk/pull/1581) |
 
